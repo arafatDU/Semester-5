@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Table</title>
+</head>
+<body>
+    <h3>Product Feedback Form</h3>
+<p>Please watch the tutorial video below before filling out the feedback form:</p>
+
+<!-- Embedded Video Tutorial -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/example_video_id" title="Product Tutorial Video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<form action="/submit_feedback" method="post">
+  <label for="name">Your Name:</label>
+  <input type="text" id="name" name="name" required><br><br>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required><br><br>
+
+  <label for="rating">How would you rate this product? (1-5):</label>
+  <input type="number" id="rating" name="rating" min="1" max="5" required><br><br>
+
+  <label for="comments">Your Feedback:</label><br>
+  <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+
+  <input type="submit" value="Submit Feedback">
+</form>
+
+<hr>
+
+<h3>Contact Us</h3>
+<p>Find our location on the map below and contact us with your inquiries:</p>
+
+<!-- Embedded Google Maps Iframe -->
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.7613890014665!2d-122.08385108469197!3d37.38605197982857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb24cd1d13c2d%3A0x45f0bd48fd9aa9df!2sGoogleplex!5e0!3m2!1sen!2sus!4v1615186087205!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+<form action="/contact_submit" method="post">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required><br><br>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required><br><br>
+
+  <label for="message">Message:</label><br>
+  <textarea id="message" name="message" rows="5" cols="50"></textarea><br><br>
+
+  <input type="submit" value="Send Message">
+</form>
+
+<hr>
+<hr>
+
+<h3>Customer Satisfaction Survey</h3>
+<p>For more information about our services, listen to the audio below:</p>
+
+<!-- Embedded Audio Player -->
+<audio controls>
+  <source src="audio_example.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<form action="/submit_survey" method="post">
+  <label for="satisfaction">Overall Satisfaction (1-5):</label>
+  <input type="number" id="satisfaction" name="satisfaction" min="1" max="5" required><br><br>
+
+  <label for="service_quality">Rate the quality of our service:</label><br>
+  <input type="radio" id="excellent" name="service_quality" value="excellent">
+  <label for="excellent">Excellent</label><br>
+
+  <input type="radio" id="good" name="service_quality" value="good">
+  <label for="good">Good</label><br>
+
+  <input type="radio" id="average" name="service_quality" value="average">
+  <label for="average">Average</label><br>
+
+  <input type="radio" id="poor" name="service_quality" value="poor">
+  <label for="poor">Poor</label><br><br>
+
+  <label for="comments">Additional Comments:</label><br>
+  <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+
+  <input type="submit" value="Submit Survey">
+</form>
+
+<hr>
+<hr>
+
+<h3>Support Request Form</h3>
+<p>If you need help, please review the tutorial and FAQ video below before submitting your request:</p>
+
+<!-- Embedded Tutorial and FAQ Video -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/example_video_id2" title="Support and FAQ Video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<form action="/support_request" method="post">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required><br><br>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required><br><br>
+
+  <label for="issue_type">Issue Type:</label>
+  <select id="issue_type" name="issue_type">
+    <option value="technical">Technical Issue</option>
+    <option value="billing">Billing Issue</option>
+    <option value="account">Account Issue</option>
+    <option value="other">Other</option>
+  </select><br><br>
+
+  <label for="description">Describe Your Issue:</label><br>
+  <textarea id="description" name="description" rows="5" cols="50"></textarea><br><br>
+
+  <input type="submit" value="Submit Request">
+</form>
+
+<hr>
+<hr>
+
+<h3>Course Enrollment Form</h3>
+<p>Please review the course syllabus below before enrolling:</p>
+
+<!-- Embedded PDF Document for Syllabus -->
+<iframe src="syllabus.pdf" width="600" height="800" title="Course Syllabus"></iframe>
+
+<form action="#" method="post">
+  <label for="name">Full Name:</label>
+  <input type="text" id="name" name="name" required><br><br>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required><br><br>
+
+  <label for="course">Select Course:</label>
+  <select id="course" name="course" required>
+    <option value="web_dev">Web Development</option>
+    <option value="data_science">Data Science</option>
+    <option value="design">Graphic Design</option>
+  </select><br><br>
+
+  <label for="comments">Additional Comments or Questions:</label><br>
+  <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+
+  <div align="center">
+    <input type="submit" value="Enroll">
+  </div>
+</form>
+
+
+</body>
+</html>

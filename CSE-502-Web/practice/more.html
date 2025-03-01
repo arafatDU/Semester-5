@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Company Portal</title>
+</head>
+<body>
+
+    <!-- Main Header Section -->
+    <h1>Welcome to the Advanced Company Information Portal</h1>
+    <p>Explore our departments, team, projects, and multimedia resources. Connect with us through the contact form at the bottom of this page.</p>
+
+    <!-- Two Side-by-Side Tables Using a Container Table -->
+    <table border="0" width="100%">
+        <tr valign="top">
+            <td width="50%">
+
+                <!-- Table 1: Company Departments -->
+                <h2>Departments Overview</h2>
+                <table border="1" width="100%">
+                    <caption>Company Departments and Locations</caption>
+                    <tr>
+                        <th>Department</th>
+                        <th>Head</th>
+                        <th>Location</th>
+                    </tr>
+                    <tr>
+                        <td>Sales</td>
+                        <td>Alice Johnson</td>
+                        <td>Building A, Floor 3</td>
+                    </tr>
+                    <tr>
+                        <td>Development</td>
+                        <td>Mark Evans</td>
+                        <td>Building B, Floor 5</td>
+                    </tr>
+                    <tr>
+                        <td>Marketing</td>
+                        <td>Susan Lee</td>
+                        <td>Building C, Floor 2</td>
+                    </tr>
+                </table>
+
+            </td>
+            <td width="50%">
+
+                <!-- Table 2: Current Projects -->
+                <h2>Current Projects</h2>
+                <table border="1" width="100%">
+                    <caption>Project Status and Team Leads</caption>
+                    <tr>
+                        <th>Project</th>
+                        <th>Lead</th>
+                        <th>Status</th>
+                    </tr>
+                    <tr>
+                        <td>Project Alpha</td>
+                        <td>Bob Smith</td>
+                        <td>In Progress</td>
+                    </tr>
+                    <tr>
+                        <td>Project Beta</td>
+                        <td>Clara Lee</td>
+                        <td>Completed</td>
+                    </tr>
+                    <tr>
+                        <td>Project Gamma</td>
+                        <td>David Tan</td>
+                        <td>Pending</td>
+                    </tr>
+                </table>
+
+            </td>
+        </tr>
+    </table>
+
+    <!-- Embedded Content Section with Side-by-Side Layout -->
+    <h2>Company Media</h2>
+    <table border="0" width="100%">
+        <tr valign="top">
+            <td width="50%">
+                <!-- Embedded YouTube Video -->
+                <h3>Introduction Video</h3>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Company Introduction Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </td>
+            <td width="50%">
+                <!-- Embedded PDF Document for Company Overview -->
+                <h3>Company Overview Document</h3>
+                <iframe src="company_overview.pdf" width="100%" height="315" title="Company Overview PDF"></iframe>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Product Features Section with Nested List -->
+    <h2>Product Features</h2>
+    <ul>
+        <li>Product A: Web Development Platform
+            <ol>
+                <li>Scalability</li>
+                <li>Responsive Design</li>
+                <li>Secure Hosting
+                    <ul>
+                        <li>SSL Encryption</li>
+                        <li>Daily Backups</li>
+                    </ul>
+                </li>
+            </ol>
+        </li>
+        <li>Product B: Cloud Storage Solution
+            <ol>
+                <li>Data Synchronization</li>
+                <li>Multi-Device Access</li>
+                <li>Advanced Security
+                    <ul>
+                        <li>End-to-End Encryption</li>
+                        <li>Access Control</li>
+                    </ul>
+                </li>
+            </ol>
+        </li>
+    </ul>
+
+    <!-- Interactive Form with Table Layout for Input Fields -->
+    <h2>Contact Us</h2>
+    <p>Have any questions? Fill out the form below to reach us:</p>
+
+    <form action="/submit_contact" method="post">
+        <table border="0" width="100%">
+            <tr>
+                <td><label for="name">Name:</label></td>
+                <td><input type="text" id="name" name="name" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="subject">Subject:</label></td>
+                <td><input type="text" id="subject" name="subject" required></td>
+            </tr>
+            <tr>
+                <td><label for="message">Message:</label></td>
+                <td><textarea id="message" name="message" rows="4" cols="50" required></textarea></td>
+            </tr>
+            <tr>
+                <td align="center" colspan="2">
+                    <input type="submit" value="Send Message">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <!-- Map and Audio Player in Separate Table Layout for Multimedia Content -->
+    <h2>Find Us and Listen to Our Story</h2>
+    <table border="0" width="100%">
+        <tr valign="top">
+            <td width="50%">
+                <!-- Google Maps Iframe for Location -->
+                <h3>Our Location</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.2045878124444!2d144.95592261539717!3d-37.81720934217851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d5df1f5f6c3%3A0xfabb6e67a663e0d4!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2sus!4v1615175722025!5m2!1sen!2sus" width="100%" height="315" style="border:0;" allowfullscreen="" loading="lazy" title="Company Location Map"></iframe>
+            </td>
+            <td width="50%">
+                <!-- Audio Player for Company Story -->
+                <h3>Our Story in Audio</h3>
+                <audio controls>
+                    <source src="audio_intro.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p>Listen to the story of how our company was founded, our values, and our commitment to excellence.</p>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>

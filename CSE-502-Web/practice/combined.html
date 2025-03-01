@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Information Portal</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <h1>Welcome to Our Company Information Portal</h1>
+    <p>Get to know more about our company, products, and team. You can also reach out to us using the contact form below.</p>
+
+    <!-- Table Section: Company Departments and Employees -->
+    <h2>Company Departments</h2>
+    <table border="1">
+        <caption>List of Departments and Employees</caption>
+        <tr>
+            <th>Department</th>
+            <th>Head of Department</th>
+            <th>Employees</th>
+            <th>Location</th>
+        </tr>
+        <tr>
+            <td>Sales</td>
+            <td>Alice Johnson</td>
+            <td>
+                <ul>
+                    <li>Bob Smith</li>
+                    <li>Clara Lee</li>
+                    <li>David Tan</li>
+                </ul>
+            </td>
+            <td>Building A, Floor 3</td>
+        </tr>
+        <tr>
+            <td>Development</td>
+            <td>Mark Evans</td>
+            <td>
+                <ul>
+                    <li>Emily Chen</li>
+                    <li>Frank Wright</li>
+                    <li>Gina Torres</li>
+                </ul>
+            </td>
+            <td>Building B, Floor 5</td>
+        </tr>
+        <tr>
+            <td>Marketing</td>
+            <td>Susan Lee</td>
+            <td>
+                <ul>
+                    <li>Harry Brown</li>
+                    <li>Isabella Garcia</li>
+                </ul>
+            </td>
+            <td>Building C, Floor 2</td>
+        </tr>
+    </table>
+
+    <!-- List Section: Products and Features -->
+    <h2>Our Products</h2>
+    <ol>
+        <li>Product A: Innovative Software Solution
+            <ul>
+                <li>Feature 1: High Performance</li>
+                <li>Feature 2: User Friendly</li>
+                <li>Feature 3: Secure</li>
+            </ul>
+        </li>
+        <li>Product B: Cloud-Based Service
+            <ul>
+                <li>Feature 1: Scalable</li>
+                <li>Feature 2: 24/7 Support</li>
+                <li>Feature 3: Data Encryption</li>
+            </ul>
+        </li>
+        <li>Product C: Mobile Application
+            <ul>
+                <li>Feature 1: Cross-Platform Compatibility</li>
+                <li>Feature 2: Regular Updates</li>
+                <li>Feature 3: Offline Access</li>
+            </ul>
+        </li>
+    </ol>
+
+    <!-- Embedded Content Section: Location Map and Tutorial Video -->
+    <h2>Visit Us</h2>
+    <p>We are located in the heart of the city. You can find our location on the map below or watch a short video about our company.</p>
+
+    <!-- Google Maps Iframe for location -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.2045878124444!2d144.95592261539717!3d-37.81720934217851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d5df1f5f6c3%3A0xfabb6e67a663e0d4!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2sus!4v1615175722025!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" title="Company Location Map"></iframe>
+
+    <!-- Video Tutorial Iframe -->
+    <h3>Learn More About Us</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Company Introduction Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <!-- Multimedia Section: Audio Introduction -->
+    <h3>Listen to Our Company Introduction</h3>
+    <p>Click the play button below to listen to an audio introduction about our company:</p>
+    <audio controls>
+        <source src="audio_intro.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Form Section: Contact Us Form -->
+    <h2>Contact Us</h2>
+    <p>If you have any questions or would like more information, please fill out the form below:</p>
+
+    <form action="/submit_contact" method="post">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+        <!-- Centered Submit Button using a Table for HTML-only Centering -->
+        <table>
+            <tr>
+                <td align="center">
+                    <input type="submit" value="Send Message">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>

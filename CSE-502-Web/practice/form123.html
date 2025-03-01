@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Table</title>
+</head>
+<body>
+    <h3>Job Application Form</h3>
+    <form action="/submit_application" method="post">
+      <!-- Personal Information Section -->
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+    
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required><br><br>
+    
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone"><br><br>
+      </fieldset>
+    
+      <!-- Education Section -->
+      <fieldset>
+        <legend>Education</legend>
+        <label for="degree">Highest Degree:</label>
+        <select id="degree" name="degree" required>
+          <option value="high_school">High School Diploma</option>
+          <option value="associate">Associate's Degree</option>
+          <option value="bachelor">Bachelor's Degree</option>
+          <option value="master">Master's Degree</option>
+          <option value="doctorate">Doctorate</option>
+        </select><br><br>
+    
+        <label for="institution">Institution Name:</label>
+        <input type="text" id="institution" name="institution" required><br><br>
+      </fieldset>
+    
+      <!-- Work Experience Section -->
+      <fieldset>
+        <legend>Work Experience</legend>
+        <label for="company">Company Name:</label>
+        <input type="text" id="company" name="company"><br><br>
+    
+        <label for="position">Position Held:</label>
+        <input type="text" id="position" name="position"><br><br>
+    
+        <label for="years">Years of Experience:</label>
+        <input type="number" id="years" name="years" min="0"><br><br>
+      </fieldset>
+    
+      <!-- Submit Section -->
+      <input type="submit" value="Submit Application">
+    </form>
+
+    <hr>
+
+    <h1>Form with Grouped Inputs for Date and Time Selection</h1>
+
+    <h3>Customer Satisfaction Survey</h3>
+<form action="/submit_survey" method="post">
+  <!-- Satisfaction Rating -->
+  <fieldset>
+    <legend>How satisfied are you with our service?</legend>
+    <label><input type="radio" name="satisfaction" value="very_satisfied"> Very Satisfied</label><br>
+    <label><input type="radio" name="satisfaction" value="satisfied"> Satisfied</label><br>
+    <label><input type="radio" name="satisfaction" value="neutral"> Neutral</label><br>
+    <label><input type="radio" name="satisfaction" value="dissatisfied"> Dissatisfied</label><br>
+    <label><input type="radio" name="satisfaction" value="very_dissatisfied"> Very Dissatisfied</label>
+  </fieldset><br>
+
+  <!-- Preferred Contact Method -->
+  <label for="contact_method">Preferred Contact Method:</label>
+  <select id="contact_method" name="contact_method">
+    <option value="email">Email</option>
+    <option value="phone">Phone</option>
+    <option value="text">Text Message</option>
+  </select><br><br>
+
+  <!-- Multiple Choices with Checkboxes -->
+  <fieldset>
+    <legend>What did you like about our service? (Select all that apply)</legend>
+    <label><input type="checkbox" name="service_quality" value="staff"> Friendly Staff</label><br>
+    <label><input type="checkbox" name="service_quality" value="timeliness"> Timeliness</label><br>
+    <label><input type="checkbox" name="service_quality" value="cleanliness"> Clean Environment</label><br>
+    <label><input type="checkbox" name="service_quality" value="value"> Value for Money</label>
+  </fieldset><br>
+
+  <!-- Additional Comments -->
+  <label for="comments">Additional Comments:</label><br>
+  <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+
+  <input type="submit" value="Submit Survey">
+</form>
+
+<hr>
+<hr>
+
+<h3>Event Reservation Form</h3>
+<form action="/reserve_event" method="post">
+  <label for="name">Your Name:</label>
+  <input type="text" id="name" name="name" required><br><br>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required><br><br>
+
+  <!-- Date and Time Selection -->
+  <fieldset>
+    <legend>Choose Date and Time</legend>
+    <label for="event_date">Date:</label>
+    <input type="date" id="event_date" name="event_date" required><br><br>
+
+    <label for="event_time">Time:</label>
+    <input type="time" id="event_time" name="event_time" required>
+  </fieldset><br><br>
+
+  <!-- Number of Attendees -->
+  <label for="attendees">Number of Attendees:</label>
+  <input type="number" id="attendees" name="attendees" min="1" required><br><br>
+
+  <!-- Special Requests -->
+  <label for="requests">Special Requests:</label><br>
+  <textarea id="requests" name="requests" rows="4" cols="50"></textarea><br><br>
+
+  <input type="submit" value="Reserve">
+</form>
+
+<hr>
+<hr>
+
+<h3>Account Registration Form</h3>
+<form action="/register_account" method="post">
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username" required><br><br>
+
+  <!-- Password and Confirm Password -->
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password" required><br><br>
+
+  <label for="confirm_password">Confirm Password:</label>
+  <input type="password" id="confirm_password" name="confirm_password" required><br><br>
+
+  <!-- Security Question -->
+  <label for="security_question">Security Question:</label>
+  <select id="security_question" name="security_question" required>
+    <option value="pet_name">What is the name of your first pet?</option>
+    <option value="mother_maiden">What is your mother's maiden name?</option>
+    <option value="birth_city">In which city were you born?</option>
+  </select><br><br>
+
+  <label for="security_answer">Answer:</label>
+  <input type="text" id="security_answer" name="security_answer" required><br><br>
+
+  <input type="submit" value="Register">
+</form>
+
+<hr>
+<hr>
+
+<h3>Product Feedback Form</h3>
+<form action="/submit_feedback" method="post">
+  <label for="product_name">Product Name:</label>
+  <input type="text" id="product_name" name="product_name" required><br><br>
+
+  <label for="purchase_date">Purchase Date:</label>
+  <input type="date" id="purchase_date" name="purchase_date"><br><br>
+
+  <label for="rating">Rating (1 to 5):</label>
+  <input type="number" id="rating" name="rating" min="1" max="5" required><br><br>
+
+  <!-- Feedback Type Checkboxes -->
+  <label>Feedback Type:</label><br>
+  <input type="checkbox" id="quality" name="feedback_type" value="quality">
+  <label for="quality">Quality</label><br>
+
+  <input type="checkbox" id="value" name="feedback_type" value="value">
+  <label for="value">Value</label><br>
+
+  <input type="checkbox" id="usability" name="feedback_type" value="usability">
+  <label for="usability">Usability</label><br><br>
+
+  <!-- Detailed Feedback -->
+  <label for="comments">Detailed Feedback:</label><br>
+  <textarea id="comments" name="comments" rows="5" cols="50"></textarea><br><br>
+
+  <input type="submit" value="Submit Feedback">
+</form>
+
+
+
+    
+</body>
+</html>
