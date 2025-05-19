@@ -142,7 +142,7 @@ The 5th semester was a perfect blend of **theory**, **practical coding**, **proj
 **Name**: Munshi Md Arafat Hussain  
 **Program**: BSc in Software Engineering  
 **Semester**: 5th  
-**University**: University Of Dhaka
+**University**: University Of
 
 ---
 

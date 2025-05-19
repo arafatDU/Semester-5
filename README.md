@@ -1,84 +1,148 @@
-# Semester-5
-<i>Here are all the codes I did during my 5th semester.<i><br><br>
-<b>BSc. in Software Engineering</b><br>
-<b>IIT, University Of Dhaka<b>
-<br>
-<br>
-<br>
+# 🎓 5th Semester Overview – BSc in Software Engineering
 
-<p>
-  <b>CSE-504: DBMS II </b><br>
-  Here is all codes in C++ language. These codes include Greedy Algorithm, Dynamic Programming, Graph Algorithm, Network Flow, String Matching etc".
-</p>  
+Welcome to the 5th Semester academic journey of my Software Engineering undergraduate program. This semester was intellectually enriching and packed with practical experiences. It included advanced database systems, modern web technologies, software design principles, ethical foundations for IT professionals, and communication skills for business success.
 
-<br>
-<p>
-  <b>CSE-511: Professional Ethics For Software Engineers </b><br>
-  This course includes Physical Layer, Network Layer, Link Layer, Transport Layer and Application Layer. In this course we learn how to capture packet with Wireshark and analyzing packets and protocol. Finally  how a Web Request works!
-</p>  
+---
 
-<br>
+## 📚 Semester Courses
 
-<p>
-  <b>CSE-502: Web Technology </b><br>
-  Here is all codes in C++ language. This code includes solution in one variable(Bisection, Newton Rhapson, False Position, Secant Method), Differentiation, Integration, Linear Algebra, Matrix Algebra, Eigenvalue, Eigen Vector etc. 
-</p>
+| Code     | Course Title                                  |
+|----------|-----------------------------------------------|
+| CSE 504  | Database Management System II (DBMS II)       |
+| CSE 502  | Web Technology                                |
+| SE 506   | Design Patterns                               |
+| SE 505   | Software Project Lab II (SPL-02)              |
+| SE 511   | Professional Ethics for Information Systems   |
+| BUS 503  | Business Communication                        |
 
-<br> 
+---
 
-<p>
-  <b>SE-506: Design Patterns </b><br>
-  Here is all codes in C++ language. These codes include DFA (Deterministic Finite Automata), NFA (Non-deterministic Finite Automata), Regular Expression, CFG (Context Free Grammar), PDA (Push-down Automata) etc more.
-</p>  
+## 📘 CSE 504: Database Management System II (DBMS II)
 
-<br> 
+A deep dive into **query optimization**, **transactions**, and **data mining** concepts.
 
-<p>
-  <b>SE-505: Software Project Lab 2 </b><br>
-  I have another repository named "SPL-1" where I have done this Project Lab. 
-</p>  
+### Key Topics:
+- **Query Processing & Optimization**: Parsing, translation, cost-based optimization.
+- **Transaction Management**: Conflict serializability using dependency graphs and precedence graphs.
+- **Recovery Systems**: Undo/Redo log-based recovery.
+- **Data Mining**:
+  - Apriori Algorithm (Frequent Itemset Mining)
+  - Decision Trees (Entropy & Information Gain)
+  - Naive Bayes (Bayesian Classification)
+- **Data Structures for Searching**: KD-tree, B-tree, R-tree.
+- **Clustering and Classification**: K-Means, KNN.
+- **Data Cube Operations**: Slice, Dice, Roll-up, Drill-down.
 
-<br>
+---
 
-<p>
-  <b>BUS-503: Business Communication </b><br>
-  Here is all codes in Java language. These codes are the advanced Object Oriented Concepts in Java including Java Collection Framework, Java File IO, Java Exception Handling, Java Generics, Java Thread and also Java Reflection.
-</p>  
+## 🌐 CSE 502: Web Technology
 
-<br>
+Focused on full-stack development and web security practices.
 
-<p>
-<h6>My 4th Semester has 6 courses.</h6>
-</p>
-<table>
-  <tr>
-    <th>Course Code</th>
-    <th>Course Title</th>
-  </tr>
-  <tr>
-    <td>CSE-401</td>
-    <td>Operating System & System Programming</td>
-  </tr>
-  <tr>
-    <td>CSE-411</td>
-    <td>Information Security </td>
-  </tr>
-  <tr>
-    <td>CSE-404</td>
-    <td>Database Management System-I</td>
-  </tr>
-  <tr>
-    <td>SE-406</td>
-    <td>Software Requirements Specification & Analysis</td>
-  </tr>
-  <tr>
-    <td>GE-402</td>
-    <td>Business Psychology</td>
-  </tr>
-  <tr>
-    <td>BUS-405</td>
-    <td>Business Studies for Engineers</td>
-  </tr>
+### Topics Covered:
+- **HTML**: Elements, iframes, embeds, canvas.
+- **CSS**: Selectors, cascading, box model, positioning, overriding.
+- **JavaScript**: Objects, Regex, DOM manipulation, JS vs jQuery.
+- **PHP**:
+  - User authentication with login/logout.
+  - Session & cookie handling with MySQL integration.
+- **Web Security**:
+  - SQL Injection
+  - XSS (Cross-Site Scripting)
+  - CSRF (Cross-Site Request Forgery)
 
+---
 
- 
+## 🧩 SE 506: Design Patterns
+
+Introduced classic **object-oriented design patterns** for solving common software architecture problems.
+
+### Creational Patterns:
+- Factory Method
+- Abstract Factory
+- Builder
+- Prototype
+- Singleton
+
+### Structural Patterns:
+- Adapter
+- Bridge
+- Composite
+- Decorator
+- Facade
+- Proxy
+
+### Behavioral Patterns:
+- Chain of Responsibility
+- Command
+- Iterator
+- Mediator
+- Observer
+- Strategy
+- Template Method
+
+---
+
+## 🚀 SE 505: Software Project Lab II (SPL-02)
+
+### 👨‍💻 Team Project: **CloudCollab IDE**
+
+A **cloud-based collaborative IDE platform** built to empower developers to **code, run, and deploy** modern web and AI applications from the browser.
+
+#### 🔧 Key Features:
+- **Multi-language support**: React.js, Next.js, Python (Streamlit), etc.
+- **Live collaboration**: Real-time code editing like Google Docs.
+- **Cloud deployment**: One-click deploy with subdomain generation.
+- **Terminal integration**: Real-time terminal using `node-pty`.
+- **Face cam + Livestreaming**: YouTube live support with camera view.
+- **Tech Stack**:
+  - Frontend: Next.js, Tailwind CSS, Liveblocks
+  - Backend: Node.js, Docker, E2B, Cloudflare Workers/D2
+  - Auth: Clerk
+  - AI: OpenAI & Anthropic APIs for coding assistance
+
+A complete DevTools experience reimagined for the cloud.
+
+---
+
+## 🧭 SE 511: Professional Ethics for Information Systems
+
+Focused on the **ethical, social, and legal responsibilities** of IT professionals.
+
+### Key Learnings:
+- Code of ethics and professional conduct
+- Privacy and data protection
+- Intellectual property rights in software
+- Ethical hacking and responsible disclosure
+- AI ethics and emerging challenges
+
+---
+
+## 🗣️ BUS 503: Business Communication
+
+Enhanced communication proficiency for workplace success.
+
+### Topics:
+- Principles of effective business communication
+- Email, report, and proposal writing
+- Presentation skills and public speaking
+- Interview and negotiation techniques
+- Communication barriers and cross-cultural strategies
+
+---
+
+## 🏁 Semester Reflection
+
+The 5th semester was a perfect blend of **theory**, **practical coding**, **project building**, and **professional growth**. The highlight was building **CloudCollab IDE**, which strengthened our teamwork, problem-solving, and real-world software development skills.
+
+---
+
+## 👨‍🎓 Author
+
+**Name**: Munshi Md Arafat Hussain  
+**Program**: BSc in Software Engineering  
+**Semester**: 5th  
+**University**: University Of Dhaka
+
+---
+
